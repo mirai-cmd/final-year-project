@@ -1,0 +1,8 @@
+matplotlib
+numpy
+pandas
+scikit_learn
+seaborn
+streamlit
+streamlit_lottie
+ipykernel==6.29.3
