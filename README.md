@@ -66,7 +66,3 @@ All these packages (except Python) are present in the Requirements.txt file.
 4. The app is now running at http://localhost:8501/ 
 5. The app will take 1-2 minutes to train the model.
 6. Play with the App.
-## Useful Links
-
-- [Deployed Website](https://navjeetkohli-predictify-microsoft-engage-app-p3bwk1.streamlit.app/)
-- [Demo Video](link)
