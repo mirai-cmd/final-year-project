@@ -19,7 +19,7 @@ def graphs():
     q12 = 'Max Power vs Selling price Scatter Plot'
     q13 = 'Heat Map of Dataset'
 
-    op = st.selectbox("Select Option for Visualization", [q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13], index=0)
+    op = st.selectbox("Select Option for Visualisation", [q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13], index=0)
     
     if op == q1:
         fig = plt.figure(figsize=(7,12))
