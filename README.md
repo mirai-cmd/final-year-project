@@ -11,8 +11,6 @@
 - ### Predict Selling Price of your Used Car
     - A Machine Learning model which predicts selling price based on features like:
         - Year, Kilometer driven, Engine, Mileage, Seats, Fuel type, Seller type, Company name, Max power
-- ### Contact Us Form
-    - Get in Touch with Us for any Query you have regarding the application.
 
 
 
