@@ -61,11 +61,11 @@ def predict_data():
         else:          
             features = np.array([[year_buy,seller,kilo,fuel,trans,mil,eng,max,seat,com]])
             pred = do_prediction(features)
-            st.success('Your Car\'s Predicted Selling Price is Rs. {}'.format(np.round(pred,2)))
-
-    
-
-
-    
-
-    
+            if pred > 1000000.0:
+                price_suffix='Crore(s)'
+            elif pred > 100000.0:
+                price_suffix='Lakh(s)'
+            else:         
+                price_suffix='Thousand(s)'
+            predicted_price= pred[0]/100000.0 if price_suffix=='Lakh(s)' else pred[0]/1000000.0
+            st.success(f'Your Car\'s Predicted Selling Price is Rs. {round(pred[0],2)} which is approximately Rs. {round(predicted_price,1)} {price_suffix}')
